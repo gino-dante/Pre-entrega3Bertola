@@ -1,0 +1,12 @@
+// Main SASS file
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'base/reset';
+@import 'base/typography';
+@import 'components/buttons';
+@import 'components/loader';
+@import 'layout/container';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'pages/page1';
+@import 'pages/page2';
