@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" id="page2">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../assets/video-game-play-pad-boy-gameboy-nintendo_108539.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Playes</title>
+</head>
+<body>
+    <header class="mobile-page">
+        <div class="container">
+            <div class="navbar">
+                <img src="../assets/logo.png" class="logo">
+                <nav>
+                    <!--Menu-->
+                    <ul id="menuList">
+                        <li><a href="">Game Controllers</a></li>
+                        <li><a href="">VR Accessories</a></li>
+                        <li><a href="">Media Remotes</a></li>
+                        <li><a href="">Others</a></li>
+                    </ul>
+                </nav>
+                <img src="../assets/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+            <main>
+                <!-- Breakpoint -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2>PS4<br>Dualshock 4</h2>
+                        <h3>Wireless Controller for PlayStation 4</h3>
+                        <p>(Compatible/Generic)</p>
+                        <h4>$32.50</h4>
+                        <button type="button"> Buy Now<img src="../assets/arrow.png"></button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="../assets/controller.png" class="Controller">
+                        <div class="color-box"></div>
+                        <div class="add-btn">
+                            <img src="../assets/add.png">
+                            <p><small> Add to Cart</small></p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <!--logos de red sociales -->
+                <div class="social-links">
+                    <img src="../assets/fb.png" >
+                    <img src="../assets/tw.png" >
+                    <img src="../assets/ig.png" >
+                </div>
+            </footer>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px"
+                }
+            else
+            {
+                menuList.style.maxHeight = "0px"
+            }    
+        }
+    </script>
+</body>
+</html>
